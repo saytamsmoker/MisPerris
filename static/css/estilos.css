@@ -1,0 +1,77 @@
+.header{
+    background: #93eac4;
+}
+.barranav{
+    background: #93eac4;
+}
+.perro{
+    background: #5dd8a2;
+    
+}
+
+h2{
+    font-family: verdana;
+}
+h3{
+    font-family: verdana;
+    color: gray;
+    font-weight: normal;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: tahoma;
+    padding: 3px;
+}
+p{
+    font-family: verdana;
+}
+.info{
+    background: #5dd8a2;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 20px;
+}
+ul li{
+    padding: 5px;
+}
+hr{
+    font-weight: bold;
+}
+footer{
+    background: #d3d9e2;
+    align-content: flex-end;
+}
+.heads a{
+    display: inline-flex;
+}
+.heads a:hover{
+    background: #0b76a6;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.formulario{
+    max-width: 400px;
+    height: auto;
+    margin: 5% auto;
+    padding-bottom: 1rem;
+    border-style: groove;
+    border-color: #5dd8a2;
+    border-width: 3px;
+}
+.formulario h2{
+    text-align: center;
+}
+.formu_clien{
+    padding-left: 30px;
+}
+.firma{
+    font-family: "Verdana";
+    size: 8px;
+}
