@@ -20,6 +20,8 @@
                             <li><a href="{% url 'mascota:mascota_crear' %}">Mascota</a></li>
                             <li><a href="{% url 'contacto:nuevocontacto' %}">Contacto</a></li>
                             <li><a href="{% url 'mascota:mascota_listar' %}">Rescatados</a></li>
+
+                           <li><a href="{% url 'contacto:contacto_listar' %}">Lista de Contactos</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -96,6 +98,8 @@
 
                {% endblock %}
             </div>
+            <script src="{% static 'js/jquery-3.3.1.js' %}"></script>
+        <script src="{% static 'js/bootstrap.js' %}"></script>
           
           
         </div> 
