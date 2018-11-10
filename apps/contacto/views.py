@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from apps.contacto.forms import ContactoForm
+from apps.contacto.models import Contacto
 # Create your views here.
 def index_contacto(request):
 	return render("contacto/contacto_form.html")
@@ -15,3 +16,8 @@ def contacto_view(request):
 		form = ContactoForm()
 
 	return render(request, 'contacto/contacto_form.html',{'form':form})
+
+def contacto_list(request):
+	contacto = Contacto.objects.all()
+	contexto = {'contacto':contacto}
+	return render(request, 'contacto/contacto_list.html',contexto)
